@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgItems"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ItemActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:fontFamily="@font/barrio"
+        android:gravity="center"
+        android:text="Item Activity"
+        android:textColor="@color/textColor"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/objectItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/barrio"
+        android:paddingStart="25dp"
+        android:text="title"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/objectItemText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/barrio"
+        android:paddingStart="25dp"
+        android:text="text"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBuy"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_auth"
+        android:fontFamily="@font/barrio"
+        android:text="Buy"
+        android:textColor="@color/textColor"
+        android:textSize="36dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBack"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_auth"
+        android:fontFamily="@font/barrio"
+        android:text="Back"
+        android:textColor="@color/textColor"
+        android:textSize="36dp" />
+
+</LinearLayout>

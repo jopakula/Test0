@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Test0</string>
+    <string-array name="id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="title">
+        <item>Pirate Adventure Ship</item>
+        <item>Rocket Spaceship</item>
+        <item>Captain\'s Canoe</item>
+        <item>Red Rocketeer</item>
+        <item>Pink Princess Ship</item>
+        <item>Dinosaur Explorer Ship</item>
+        <item>Fun Animal Boat</item>
+        <item>Arctic Research Icebreaker</item>
+        <item>Dreaming Flying Saucer</item>
+        <item>Magical Fairy Ship</item>
+    </string-array>
+
+    <string-array name="text">
+        <item>A wonderful children\'s ship in a pirate style, equipped with bright sails and a wooden deck. Immerse yourself in the world of imagination and pirate games!</item>
+        <item>A spaceship for little astronauts, with vibrant coloring and a retractable hatch. Get ready for exciting adventures in distant star spaces!</item>
+        <item>A little captain will embark on water adventures with this colorful canoe. Stable and safe, perfect for the first sea expeditions.</item>
+        <item>This children\'s ship is shaped like a rocket with fun figures of space inhabitants. Perfect for bath time games and water adventures.</item>
+        <item>A lovely children\'s ship in pink coloring, inspired by princess adventures. Make your bath time games magical and fun!</item>
+        <item>This unique children\'s ship shaped like a dinosaur will be a great companion for your little explorer. Fun and educational!</item>
+        <item>A cute children\'s boat featuring images of bright animals. Suitable for bath time and pool water adventures.</item>
+        <item>Icebreaker in bright colors with figures of polar animals. Perfect for exploring Arctic adventures.</item>
+        <item>A fantastic flying saucer for children who dream of alien adventures. Fun and creative!</item>
+        <item>A ship in fairy style with magical details. Embark on amazing journeys with fairies and magic!</item>
+    </string-array>
+
+    <string-array name="prise">
+        <item>$99.99</item>
+        <item>$79.99</item>
+        <item>$59.99</item>
+        <item>$39.99</item>
+        <item>$49.99</item>
+        <item>$69.99</item>
+        <item>$29.99</item>
+        <item>$89.99</item>
+        <item>$59.99</item>
+        <item>$79.99</item>
+    </string-array>
+</resources>

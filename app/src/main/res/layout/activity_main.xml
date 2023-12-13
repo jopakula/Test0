@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:fontFamily="@font/barrio"
+        android:gravity="center"
+        android:text="Registration"
+        android:textColor="@color/textColor"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:background="@android:color/transparent"
+        android:textColorHint="@color/textColorHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:fontFamily="@font/barrio"
+        android:hint="login"
+        android:inputType="text"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/textColorHint"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:fontFamily="@font/barrio"
+        android:hint="email"
+        android:inputType="text"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/textColorHint"
+        android:ems="10"
+        android:fontFamily="@font/barrio"
+        android:hint="password"
+        android:inputType="text"
+        android:textColor="@color/textColor" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogIn"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/barrio"
+        android:text="Log In"
+        android:textColor="@color/textColor"
+        android:textSize="36dp" />
+
+    <TextView
+        android:id="@+id/LinkToEnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:fontFamily="@font/barrio"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textColor="@color/textColor"
+        android:textSize="30sp" />
+
+</LinearLayout>
